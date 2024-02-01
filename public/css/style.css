@@ -1,0 +1,116 @@
+*{
+  padding:0px;
+  box-sizing: border-box;
+  margin:0px;
+}
+main {
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+Nav {
+	display:flex;
+	background:rgb(220 220 220);
+	position:absolute;
+	justify-content:center;
+	align-items: center;
+	top:35%;
+	left:48%;
+	right:48%;
+	bottom:40%;
+	height:200px;
+	border-radius:30px;
+	text-align: center;
+	width:50px;
+	line-height:30px;
+}
+
+Nav ul li {
+	list-style: none;
+	text-align: center;
+}
+
+#home {
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+	height:100%;
+	overflow-x: hidden;
+}
+
+#home .home-details {
+	background:#5252526e;
+	height:100%;
+	width:50%;
+}
+#home .home-portfiloImg {
+	height:100%;
+	width:50%;
+	background:rgb(220 220 220);;
+}
+
+#home .home-portfiloImg img {  
+	position:absolute;
+	bottom:50px;
+	right:40px;
+	scale : 1.2;
+}
+#home .home-details {
+	text-align: center;
+}
+#home .home-details .details-text {
+	margin:30% auto;
+}
+#home .home-details .details-text h2,
+#home .home-details .details-text h3{
+	font-size:50px;
+	color:grey;
+}
+#home .home-details .details-text h3 {
+	font-size:30px;
+}
+#home .home-details .details-text h3 snap {
+	color:rgb(220 220 220);
+	font-size:53px;
+	font-weight:bolder;
+	font-family: "verdana";
+}
+#home .home-details .details-text Banner h5 {
+	background:rgb(220 220 220);
+	width:400px;
+	position:relative;
+	padding:10px 5px;
+	left:20%;
+	border-radius:30px;
+	letter-spacing:.4px;
+	color:grey;
+}
+
+#home .home-details .details-text article {
+	margin-top:20px;
+	color:rgb(220 220 220);
+	font-family:"verdana";
+	margin-bottom:10px;
+}
+#home .home-details .details-text button {
+	padding:10px 25px;
+	background:rgb(220 220 220);
+	border:none;
+	border-radius:40px;
+	letter-spacing: 1.1px;
+	color:grey;
+}
+#home .home-details .details-text button:hover {
+	background:rgb(230 230 220);
+	padding:0px 0px 0px 0px,
+	        25px 25px 25px 25px,
+	        50px 50px 50px 50px,
+	        100px 100px 100px 100px;
+
+}
